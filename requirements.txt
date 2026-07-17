@@ -1,0 +1,8 @@
+pandas
+numpy
+sentence-transformers
+scikit-learn
+streamlit
+python-dotenv
+anthropic
+requests
