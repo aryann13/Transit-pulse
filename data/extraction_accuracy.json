@@ -1,0 +1,6 @@
+{
+  "sample_size": 20,
+  "train_number_accuracy": 85.0,
+  "coach_number_accuracy": 90.0,
+  "issue_category_accuracy": 75.0
+}
