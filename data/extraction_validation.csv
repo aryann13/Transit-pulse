@@ -1,0 +1,21 @@
+complaint_id,complaint_text,true_train_number,true_coach_number,true_issue_category,extracted_train_number,extracted_coach_number,extracted_issue_category
+COMP_0096,Train ka timing bahut late ho raha hai. Abhi tak kuch nahi hua. Unka koi dhyaan nahi hai.,,,Other,,,Delay-related
+COMP_0016,S5 coach ka toilet to clean karo. Kuch din pehle hi toh pani nahi aa raha tha.,,S5,Cleanliness,,S5,Cleanliness
+COMP_0031,"Bhaiyo, ticket counter se milkar coach B2 tak bahut saare log aaye the, lekin koi bhi staff hamaare liye upastith nahin tha.",,B2,Staff Behaviour,,B2,Overcrowding
+COMP_0159,"Wah sir, toilet ki cleanliness bahut hi buri hai. Isse hum log bahut hi garm hote hain.",12229.0,,Cleanliness,,,Cleanliness
+COMP_0129,"A1 coach ki AC kharab hai, to ticket ki kya zaroorat hai?",,A1,AC Failure,,A1,AC Failure
+COMP_0116,Train 12951 wale staff bahut aapse hai. Unka behaviour bahut gusse wala tha.,12951.0,,Delay-related,12951,,Staff Behaviour
+COMP_0070,The quality of food in train 12301 is very bad.,12301.0,,Food Quality,12301,,Food Quality
+COMP_0171,Food quality is very bad in train 12004,12004.0,,Food Quality,12004,,Food Quality
+COMP_0175,"They are serving spoiled food in train 12301, AC coach S1",12301.0,1,Food Quality,12301,S1,Food Quality
+COMP_0046,"Aapke staff ne humein coach S7 me baithne ka permission diya, lekin AC nahi chalta hai",,S7,Staff Behaviour,,S7,AC Failure
+COMP_0067,We are already 30 minutes late and no update on the delay. Please provide some information.,12301.0,,Delay-related,,,Delay-related
+COMP_0183,"Main 12809 ka ticket laga hua hoon, lekin food quality to bahut buri hai.",12809.0,,Food Quality,12809,,Food Quality
+COMP_0166,"Mujhe lagta hai ki train 12951 ki timing wrong hai, hum late ho gaye hain",12951.0,,Other,12951,,Delay-related
+COMP_0079,"Humein train 2 hours delay ho gayi, bahut frustration hua",,,Delay-related,,,Delay-related
+COMP_0187,H1 coach ka window band hai. Isliye bahar ka view nahi de raha.,,H1,Other,,H1,Other
+COMP_0178,"Food quality is very bad in train 12951, coach B3",12951.0,3,Food Quality,12951,B3,Food Quality
+COMP_0057,S5 coach mein toilet ki machine chalti nahin hai. Koi sahi kare.,,S5,Cleanliness,,S5,Cleanliness
+COMP_0153,Tumhare staff bahut hi garm jalwaal hai. Unhone mere pasbton ko ticket ka bill 4 baar lagaya.,,,Staff Behaviour,,,Staff Behaviour
+COMP_0083,"Overcrowding hai GS coach me, aap log koi action lein.",,GS,Overcrowding,,GS,Overcrowding
+COMP_0069,Train wale bahut adhik dhamki dete hain. Unki behatar ho sakti hai.,12626.0,,Staff Behaviour,,,Staff Behaviour

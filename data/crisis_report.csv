@@ -1,0 +1,24 @@
+train_number,coach_number,dominant_category,complaint_count,avg_severity,max_severity,crisis_score,worst_complaint
+12626,Unknown,Food Quality,16,2.12,4,42.0,Train 12626 ki AC nahi chal rahi hai. Bahut darr kaa hai.
+12951,Unknown,Delay-related,11,2.73,4,38.0,"Chalo, main apne gaadi chala gaya. Train 12951 ki AC chalu nahi hai. Kya aap kuch kar sakte hain?"
+12423,Unknown,Delay-related,10,2.2,4,30.0,Train 12423 mein koi water bottle nahi mil raha. Please arrange.
+12229,Unknown,Delay-related,8,2.38,4,27.0,Train 12229 ki AC aapke paas kyu nahi hai?
+12004,Unknown,Delay-related,7,2.29,3,22.0,Train ki punctuality bahut kam hai. Koi sahi kare. Train 12004 ki delay 3 ghante ho rahi hai.
+12951,B2,AC Failure,2,4.0,4,16.0,"AC not working in coach B2, train 12951."
+12004,S7,Cleanliness,2,3.5,4,15.0,"Toh kya kar sakte hain, toilet me pani nahi aa raha hai coach S7 me, train 12004."
+12229,H1,AC Failure,2,3.5,4,15.0,Kya train 12229 ki AC system to nahi hai? H1 coach me bahut garmi lagi.
+12951,B3,Food Quality,2,3.0,4,14.0,"Maine train 12951 me B3 coach mein peedha gai thi, lekin pani nahi mila. Staff ko pata chal gaya tha, lekin koi action nahi liya."
+12301,Unknown,Delay-related,5,2.0,2,14.0,"Main train 12301 se train 12951 tak gaya tha, lekin yeh train bahut saari ghatnaon ke baad bhi aati thi."
+12004,D2,Water Availability,1,4.0,4,12.0,"Sahi hai kya yeh, toilet me pani nahi aa raha hai coach D2 me, train 12004?"
+22436,GS,Water Availability,1,4.0,4,12.0,Kya aap train 22436 ki GS seat ka water supply problem solve kar sakte hain?
+12004,A1,AC Failure,1,4.0,4,12.0,"Train 12004 ki AC nahin chalti hai, coach A1 mein. Bahut badhi hui garmi hai."
+12004,B1,AC Failure,1,4.0,4,12.0,"Train 12004 mein B1 coach ka AC chala nahin hai, kripya jald se jald kuchh karein."
+12423,S5,AC Failure,1,4.0,4,12.0,"Train 12423 ki S5 seat ki AC failure hai, please check it."
+12951,A1,Water Availability,1,4.0,4,12.0,"Toilet me pani nahi aa raha hai, coach A1 me 12951 train me."
+22436,D2,AC Failure,1,4.0,4,12.0,I was shocked to see that AC was not working in coach D2 of train 22436. This is not the service I expect from Indian Railways.
+12301,S1,Cleanliness,2,2.5,3,11.0,I'm extremely disappointed with my experience on train 12301. The toilet in coach S1 was not functioning properly.
+12809,Unknown,Delay-related,3,2.0,2,10.0,Train 12809 mein delay ho gaya hai aur abhi tak yahaan aaya hai. Isse bahut kami kar di.
+12004,H1,Overcrowding,1,3.0,3,9.0,"H1 coach me bahut overcrowding hai, 12004 train me."
+12809,B2,Overcrowding,1,3.0,3,9.0,Train 12809 me B2 coach mein bahut overcrowding hai. Lekin staff ne koi action nahi liya.
+22436,Unknown,Delay-related,2,2.0,2,8.0,Train number 22436 mein koi sahi information nahi mil rahi hai.
+12423,D1,Food Quality,1,2.0,2,6.0,Train 12423 me D1 coach mein food quality bad hai. Khana bahut takkar mein tha.

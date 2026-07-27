@@ -1,0 +1,201 @@
+complaint_id,timestamp,complaint_text,true_train_number,true_coach_number,true_issue_category,extracted_train_number,extracted_coach_number,extracted_issue_category,cluster_id,pca_x,pca_y,severity_score,severity_level
+COMP_0001,2026-06-24 06:33:42,"Your food quality is pathetic, train 12626. I had ordered veg thali but the dal was overcooked.",12626.0,,Food Quality,12626.0,,Food Quality,3,-0.5007905,0.1909868,2,Medium
+COMP_0002,2026-07-15 18:16:57,"Toh kya kar sakte hain, toilet me pani nahi aa raha hai coach S7 me, train 12004.",12004.0,S7,Water Availability,12004.0,S7,Water Availability,4,0.24723455,-0.0073675737,4,Very High
+COMP_0003,2026-07-01 12:32:32,"Train mein delay karke kya hoga? Humne 2 baje se wait kiya, train 12423 to 4 baje se hi aa rahi hai.",12423.0,,Delay-related,12423.0,,Delay-related,6,0.04603195,0.20606576,2,Medium
+COMP_0004,2026-07-04 17:39:59,"Bhai, AC is not working in coach B3, it's so hot here. Please do something.",,B3,Cleanliness,,B3,AC Failure,2,-0.25392258,-0.5309049,4,Very High
+COMP_0005,2026-07-01 04:45:14,Food quality is very bad in train 12626. It looks like they just heated up the leftover from yesterday.,12626.0,,Food Quality,12626.0,,Food Quality,3,-0.7732319,0.20786065,2,Medium
+COMP_0006,2026-07-03 16:50:06,"Sahi hai kya yeh, toilet me pani nahi aa raha hai coach D2 me, train 12004?",12004.0,D2,Water Availability,12004.0,D2,Water Availability,4,0.21610357,-0.06626328,4,Very High
+COMP_0007,2026-07-07 21:37:06,"This is ridiculous, I asked for a refill of water in B2 coach but no one came.",,B2,Water Availability,,B2,Water Availability,2,-0.36480436,-0.4312636,4,Very High
+COMP_0008,2026-07-07 14:33:14,"Bhai, please check the cleanliness of coach S7, train 12004. It smells like someone had their dog here.",12004.0,S7,Cleanliness,12004.0,S7,Cleanliness,3,-0.40701452,-0.14838389,3,High
+COMP_0009,2026-06-28 06:42:36,"Chalo, train 12423 to delay ho gai hai, abhi tak kuch bhi nahi hua, aur koi bhi nahi aaya hai.",12423.0,,Delay-related,12423.0,,Delay-related,6,0.131077,0.1899899,2,Medium
+COMP_0010,2026-07-07 09:52:52,"Please increase the frequency of water refills in B3 coach, it's getting very hot here.",,B3,Water Availability,,B3,Water Availability,2,-0.40113598,-0.40661716,4,Very High
+COMP_0011,2026-07-15 01:41:22,"AC not working in coach B2, train 12951.",12951.0,B2,AC Failure,12951.0,B2,AC Failure,2,-0.63496673,-0.4514833,4,Very High
+COMP_0012,2026-07-04 08:34:41,"H1 coach me bahut overcrowding hai, 12004 train me.",12004.0,H1,Overcrowding,12004.0,H1,Overcrowding,1,-0.028995695,-0.017527554,3,High
+COMP_0013,2026-07-04 23:43:11,"Toilet me pani nahi aa raha hai, coach A1 me 12951 train me.",12951.0,A1,Cleanliness,12951.0,A1,Water Availability,4,0.17885344,-0.103834875,4,Very High
+COMP_0014,2026-07-08 13:53:24,Staff ko thoda respect karna chahiye. B2 coach ka staff bahut rude tha.,,B2,Staff Behaviour,,B2,Staff Behaviour,1,0.1203407,-0.22779447,2,Medium
+COMP_0015,2026-06-22 01:20:15,Kya train 12229 ki AC system to nahi hai? H1 coach me bahut garmi lagi.,12229.0,H1,AC Failure,12229.0,H1,AC Failure,6,0.08843161,0.016005859,4,Very High
+COMP_0016,2026-07-14 21:01:39,S5 coach ka toilet to clean karo. Kuch din pehle hi toh pani nahi aa raha tha.,,S5,Cleanliness,,S5,Cleanliness,4,0.24993035,-0.14890659,3,High
+COMP_0017,2026-07-01 22:53:16,Food quality to bahut bad hai train 12626 me.,12626.0,,,12626.0,,Food Quality,5,-0.14326619,0.32650426,2,Medium
+COMP_0018,2026-06-30 20:13:09,D1 coach ka staff bahut helpful tha. Unka dhanyawad.,,D1,Staff Behaviour,,D1,,1,0.0038337403,-0.19692986,2,Medium
+COMP_0019,2026-07-18 18:27:50,Train 12229 me overcrowding bahut hai. H1 coach me kuch aise seat de do.,12229.0,H1,Overcrowding,12229.0,H1,Overcrowding,1,-0.030029748,0.08012745,3,High
+COMP_0020,2026-07-14 11:03:31,AC to nahi chala raha hai 12951 train ka coach B2. Bahut garmi ho rahi hai.,12951.0,B2,AC Failure,12951.0,B2,AC Failure,6,0.16915514,-0.05919209,4,Very High
+COMP_0021,2026-07-11 06:42:31,B2 coach ka AC toot gaya hai aur staff ne koi sahi samadhan nahin kiya.,,B2,Staff Behaviour,,B2,AC Failure,1,0.2431174,-0.1944393,4,Very High
+COMP_0022,2026-07-12 04:21:32,Train 12626 ki food quality bahut buri thi. Kuch din pehle hi to aisa hi hua tha.,12626.0,,Food Quality,12626.0,,Food Quality,5,-0.15684277,0.33179006,2,Medium
+COMP_0023,2026-06-25 01:17:53,Toilet me pani nahi aa raha hai coach S5 me. Isse lagta hai ki yahaan ki cleanliness ka koi dhyan nahin diya gaya.,,S5,Cleanliness,,S5,Cleanliness,4,0.35807294,-0.123136476,3,High
+COMP_0024,2026-07-02 02:34:44,Train 12809 mein delay ho gaya hai aur abhi tak yahaan aaya hai. Isse bahut kami kar di.,12809.0,,Delay-related,12809.0,,Delay-related,6,0.11056899,0.2627099,2,Medium
+COMP_0025,2026-07-10 00:42:28,H1 coach ka seat mein thoda sa dhakka lag raha tha. Kuch saamay par thoda sa repair karein.,,H1,Cleanliness,,H1,Other,1,0.10061395,-0.11821363,2,Medium
+COMP_0026,2026-07-09 18:39:24,Food ka menu bahut same ho raha hai. Kuch din pehle hi to yah menu hi tha. Isme change karein.,,,Food Quality,,,Food Quality,5,0.12469356,0.14271672,2,Medium
+COMP_0027,2026-07-14 06:17:17,B3 coach mein toilet ki cleaning bahut poori tarah se nahin hoti. Isme thoda sa sahi karein.,,B3,Cleanliness,,B3,Cleanliness,4,0.21995576,-0.1505555,3,High
+COMP_0028,2026-07-05 15:10:09,"Train 12423 ki punctuality bahut achchi hai, lekin yeh delay ho gaya hai. Isme thoda sa sahi karein.",12423.0,,Delay-related,12423.0,,Delay-related,6,0.084105454,0.26585877,2,Medium
+COMP_0029,2026-07-20 08:42:35,Staff ke saath communication bahut poori tarah se nahin hota. Isme thoda sa sahi karein.,,,Staff Behaviour,,,Staff Behaviour,1,0.12237842,0.019213472,2,Medium
+COMP_0030,2026-06-28 05:19:11,"D1 coach mein kuch din pehle hi thoda sa repair kiya tha, lekin yeh abhi tak sahi nahi ho raha. Isme thoda sa sahi karein.",,D1,Cleanliness,,D1,Other,1,0.14971516,-0.22067164,2,Medium
+COMP_0031,2026-06-28 05:14:03,"Bhaiyo, ticket counter se milkar coach B2 tak bahut saare log aaye the, lekin koi bhi staff hamaare liye upastith nahin tha.",,B2,Staff Behaviour,,B2,Overcrowding,1,0.12270691,-0.14047907,5,Critical
+COMP_0032,2026-06-26 02:00:08,"Maine train 12004 pe baithkar khana khaaya, lekin koi bhi variety nahi tha. Bas same old chawal aur daal hi tha.",12004.0,,Food Quality,12004.0,,Food Quality,7,-0.10450234,0.3271295,2,Medium
+COMP_0033,2026-07-02 19:37:34,"Maine kaha ki toilet mein pani nahi hai, lekin woh bhi sunne ke liye taiyaar nahi tha.",,D1,Water Availability,,,Water Availability,4,0.36440703,0.13936734,4,Very High
+COMP_0034,2026-07-18 04:07:07,"Main train 12301 se train 12951 tak gaya tha, lekin yeh train bahut saari ghatnaon ke baad bhi aati thi.",12301.0,,Cleanliness,12301.0,,Delay-related,7,-0.0435196,0.30966032,2,Medium
+COMP_0035,2026-07-02 08:18:43,Food quality to bahut bad hai. Mainne to train 12626 se hi khaaya tha lekin aaj bhi train 12951 ke khane ka taste to bahut bad hai.,12951.0,,Food Quality,12626.0,,Food Quality,5,-0.054743968,0.34191906,2,Medium
+COMP_0036,2026-07-16 14:19:19,Coach S5 mein toilet ka sthal clean nahi hai. Isliye logon ko bahut problem hoti hai.,,S5,Cleanliness,,S5,Cleanliness,4,0.3030916,-0.14057773,3,High
+COMP_0037,2026-07-09 10:02:56,To toilet mein pani nahi a raha hai coach S5 mein.,,S5,Water Availability,,S5,Water Availability,4,0.3346252,-0.12524271,4,Very High
+COMP_0038,2026-07-02 23:29:50,AC is not working in coach B1.,,B1,Cleanliness,,B1,AC Failure,2,-0.5619164,-0.7428207,4,Very High
+COMP_0039,2026-06-24 23:36:39,Mere liye train ki ticket cancel kar do. Main train 12951 se gaya tha.,12951.0,,Staff Behaviour,12951.0,,Delay-related,7,-0.081616074,0.20703088,2,Medium
+COMP_0040,2026-07-14 13:20:06,Mujhe lagta hai ki staff ki aapke paas koi bhi samay nahin hai. Mainne to train 12004 se hi ticket li thi.,12004.0,,Staff Behaviour,12004.0,,Staff Behaviour,6,0.08624689,0.16736768,2,Medium
+COMP_0041,2026-07-20 00:17:31,Train delay hai 3 hour se zyada ho gaya,12951.0,,Delay-related,,,Delay-related,6,-0.040623087,0.17429276,2,Medium
+COMP_0042,2026-06-25 00:17:24,Koi AC ka worker aa jaye coach D1 me,,D1,AC Failure,,D1,Other,1,0.045337647,-0.36615282,2,Medium
+COMP_0043,2026-07-06 04:46:05,Train 12229 ki AC aapke paas kyu nahi hai?,12229.0,,AC Failure,12229.0,,AC Failure,6,0.087369345,0.14126381,4,Very High
+COMP_0044,2026-07-06 22:52:31,"Toh humne food order kiya tha train 12626 me, lekin wahi food mila hai jo 2 din pehle ka tha",12626.0,,Food Quality,12626.0,,Food Quality,5,0.08867243,0.26745442,2,Medium
+COMP_0045,2026-07-14 10:26:19,"Train mein delay ho raha hai, aap kuch kar sakte hain?",,,Delay-related,,,Delay-related,6,0.2159352,0.13903251,2,Medium
+COMP_0046,2026-06-23 21:12:43,"Aapke staff ne humein coach S7 me baithne ka permission diya, lekin AC nahi chalta hai",,S7,Staff Behaviour,,S7,AC Failure,1,0.1808594,-0.25703314,4,Very High
+COMP_0047,2026-07-14 17:09:45,"Chalo, main apne gaadi chala gaya. Train 12951 ki AC chalu nahi hai. Kya aap kuch kar sakte hain?",12951.0,,AC Failure,12951.0,,AC Failure,6,0.1967955,0.1139967,4,Very High
+COMP_0048,2026-07-06 04:27:44,"Maine apne doston se milne ke liye ticket purchase kiya, lekin aapke staff ne humein coach D2 me baithne ka nahi diya",,D2,Staff Behaviour,,D2,Staff Behaviour,7,0.0038608522,-0.039058987,2,Medium
+COMP_0049,2026-07-18 01:55:47,Train 12229 ki food quality bahut bad hai. Kya aap kuch kar sakte hain?,12229.0,,Food Quality,12229.0,,Food Quality,5,-0.052508943,0.29301035,2,Medium
+COMP_0050,2026-07-17 21:47:09,"Toh humne ticket purchase kiya tha train 12626 me, lekin wahi food mila hai jo 2 din pehle ka tha. Aap kya kar sakte hain?",12626.0,,Food Quality,12626.0,,Food Quality,5,0.09456237,0.27516225,2,Medium
+COMP_0051,2026-07-13 15:47:08,"Toilet mein hamaare ghar ke saamne pani nahi aa raha hai, isliye toilet mein gandagi ho rahi hai. Please check.",,,Cleanliness,,,Water Availability,4,0.37439075,0.06418936,5,Critical
+COMP_0052,2026-07-19 09:33:30,"Train 12004 ki AC nahin chalti hai, coach A1 mein. Bahut badhi hui garmi hai.",12004.0,A1,Cleanliness,12004.0,A1,AC Failure,6,0.0860086,0.030895723,4,Very High
+COMP_0053,2026-07-01 15:27:47,S7 coach mein pani ki bottle nahi hai.,,S7,Water Availability,,S7,Water Availability,4,0.23992556,-0.1330182,4,Very High
+COMP_0054,2026-07-18 08:21:02,Train 12626 ka khana bahut bura hai.,12626.0,,Cleanliness,12626.0,,Food Quality,6,0.01224246,0.28800803,2,Medium
+COMP_0055,2026-07-15 17:50:52,"D2 coach mein bahut jama hua hai, koi seat nahin mil rahi.",,D2,Overcrowding,,D2,Overcrowding,1,0.2400071,-0.14540528,3,High
+COMP_0056,2026-07-11 19:44:10,"Train ki delay bahut jyaada ho rahi hai, please check.",,,Delay-related,,,Delay-related,6,0.09161735,0.18749301,2,Medium
+COMP_0057,2026-07-02 04:46:05,S5 coach mein toilet ki machine chalti nahin hai. Koi sahi kare.,,S5,Cleanliness,,S5,Cleanliness,4,0.27536535,-0.13881356,3,High
+COMP_0058,2026-07-15 19:57:29,Train 12423 mein koi water bottle nahi mil raha. Please arrange.,12423.0,,Water Availability,12423.0,,Water Availability,7,-0.06595927,0.14282413,4,Very High
+COMP_0059,2026-07-19 11:04:12,"Overcrowding hai, D2 coach mein koi seat nahin hai. Please control.",,D2,Overcrowding,,D2,Overcrowding,1,0.10001615,-0.15503332,3,High
+COMP_0060,2026-07-11 05:56:44,Train ki punctuality bahut kam hai. Koi sahi kare. Train 12004 ki delay 3 ghante ho rahi hai.,12004.0,,Delay-related,12004.0,,Delay-related,6,0.093608126,0.26035938,3,High
+COMP_0061,2026-07-03 02:42:29,AC is not working in coach B1.,12301.0,B1,Cleanliness,,B1,AC Failure,2,-0.5619164,-0.74282074,4,Very High
+COMP_0062,2026-07-07 13:14:04,Toh kya kiya? Abhi 2 hours ho gaye hain train late hui hai.,12626.0,,Delay-related,,,Delay-related,6,0.24278533,0.18941289,3,High
+COMP_0063,2026-07-01 00:24:14,The food quality in train 12626 is horrible.,12626.0,,Food Quality,12626.0,,Food Quality,3,-0.7363509,0.22890714,2,Medium
+COMP_0064,2026-07-21 03:42:53,Toilet me pani nahi aa raha hai coach S1 me. Kuch karne ki zaroorat hai!,12229.0,S1,Cleanliness,,S1,Water Availability,4,0.3457413,-0.16103517,4,Very High
+COMP_0065,2026-06-24 12:40:45,D1 coach ka seater kafi uncomfortable tha.,12301.0,D1,Cleanliness,,D1,Other,1,-0.13974258,-0.17467551,2,Medium
+COMP_0066,2026-07-18 15:49:25,Tumhara staff bahut buri tarah kaam karta hai. Usne mujhe bahut galti se bulaaya.,12626.0,,Staff Behaviour,,,Staff Behaviour,1,0.20286493,0.007456341,2,Medium
+COMP_0067,2026-06-26 13:36:11,We are already 30 minutes late and no update on the delay. Please provide some information.,12301.0,,Delay-related,,,Delay-related,0,-0.39894536,-0.046180584,2,Medium
+COMP_0068,2026-07-17 09:10:34,B3 coach mein toilet mein kuch cheezon ki shortage hai.,12229.0,B3,Cleanliness,,B3,Cleanliness,4,0.15073818,-0.1351299,3,High
+COMP_0069,2026-07-03 18:15:12,Train wale bahut adhik dhamki dete hain. Unki behatar ho sakti hai.,12626.0,,Staff Behaviour,,,Staff Behaviour,6,0.20447668,0.14158143,5,Critical
+COMP_0070,2026-07-18 16:12:54,The quality of food in train 12301 is very bad.,12301.0,,Food Quality,12301.0,,Food Quality,3,-0.7122689,0.25788352,2,Medium
+COMP_0071,2026-07-16 06:50:38,AC is not working in coach B1,12301.0,B1,Other,,B1,AC Failure,2,-0.5585162,-0.73920494,4,Very High
+COMP_0072,2026-07-03 16:27:55,toilet me pani nahi aa raha hai coach S5 me,,S5,Other,,S5,Water Availability,4,0.35358077,-0.22071877,4,Very High
+COMP_0073,2026-07-17 16:08:04,"Train 12626 ki food quality very bad hai, please improve",12626.0,,Food Quality,12626.0,,Food Quality,3,-0.42485318,0.257764,2,Medium
+COMP_0074,2026-06-21 19:20:44,"Overcrowding hain, D1 coach me seat nahi mil raha",,D1,Overcrowding,,D1,Overcrowding,1,0.06609753,-0.17577422,3,High
+COMP_0075,2026-07-11 23:10:05,"Main train 12004 se travel kar raha tha, lekin train 1 hour late ho gayi",12004.0,,Delay-related,12004.0,,Delay-related,7,-0.12478405,0.2949414,2,Medium
+COMP_0076,2026-07-11 14:27:30,"GS compartment me koi bhi facility nahi hai, bas seats.",,GS,Other,,,Other,1,0.16355515,0.052960757,2,Medium
+COMP_0077,2026-07-09 23:24:42,D2 coach me toilet ka smell bahut bada hai,,D2,Other,,D2,Cleanliness,4,0.19189416,-0.2076562,3,High
+COMP_0078,2026-06-30 13:58:50,"Food quality is very bad in train 12626, please improve it.",12626.0,,Food Quality,12626.0,,Food Quality,3,-0.70848024,0.24327542,2,Medium
+COMP_0079,2026-07-10 05:41:21,"Humein train 2 hours delay ho gayi, bahut frustration hua",,,Delay-related,,,Delay-related,6,-0.06387631,0.18016647,3,High
+COMP_0080,2026-07-06 23:21:30,"Bina ticket ke log D1 coach me seat le rahe the, humein seat nahi mil raha.",,D1,Overcrowding,,D1,Overcrowding,1,0.12687182,-0.115414836,3,High
+COMP_0081,2026-07-08 11:36:43,"Toilet me pani nahi aa raha hai coach S7 me, kripya zaroori kadam uthayein.",,S7,Water Availability,,S7,Water Availability,4,0.3818494,-0.16215447,4,Very High
+COMP_0082,2026-06-23 02:50:11,"Food quality is very bad in train 12423, kuchh acchi quality ka khana pradaan kijiye.",12423.0,,Staff Behaviour,12423.0,,Food Quality,3,-0.42847264,0.32607085,2,Medium
+COMP_0083,2026-06-27 00:28:47,"Overcrowding hai GS coach me, aap log koi action lein.",,GS,Overcrowding,,GS,Overcrowding,1,0.11236121,-0.10008879,3,High
+COMP_0084,2026-07-20 15:49:52,"Train 12951 ka AC chala nahin hai, kripya jald se jald kuchh karein.",12951.0,,AC Failure,12951.0,,AC Failure,6,0.009431309,0.1548339,4,Very High
+COMP_0085,2026-07-15 03:33:07,"B2 coach ka bathroom ka tap water bhi nahi chal raha hai, kripya thoda kuchh karein.",,B2,Water Availability,,B2,Water Availability,4,0.236865,-0.17192304,4,Very High
+COMP_0086,2026-07-02 17:34:04,"Train ke staff ka behavior bahut se badh gaya hai, unka attitude bhi bahut se acha nahi hai.",,,Staff Behaviour,,,Staff Behaviour,1,0.23337266,0.026651563,2,Medium
+COMP_0087,2026-06-24 13:58:38,"Toilet cleaning ka koi bhi system nahi hai, toilet me pani aur gandaai bahut ho rahi hai.",,,Water Availability,,,Cleanliness,4,0.41522723,-0.010595115,3,High
+COMP_0088,2026-07-14 14:55:27,"Train 12004 mein B1 coach ka AC chala nahin hai, kripya jald se jald kuchh karein.",12004.0,B1,AC Failure,12004.0,B1,AC Failure,6,0.01702951,-0.028744407,4,Very High
+COMP_0089,2026-07-10 19:16:06,"Overcrowding hai train mein, aap log koi action lein, hamein seat do.",,,Overcrowding,,,Overcrowding,1,0.112161815,0.14789341,3,High
+COMP_0090,2026-06-29 05:58:33,"Food quality thoda se bad hai, kripya kuchh aur acchi quality ka khana pradaan kijiye.",12951.0,,Staff Behaviour,,,Food Quality,5,0.019043094,0.20136993,2,Medium
+COMP_0091,2026-06-27 22:56:50,"Maine train 12951 me B3 coach mein peedha gai thi, lekin pani nahi mila. Staff ko pata chal gaya tha, lekin koi action nahi liya.",12951.0,B3,Water Availability,12951.0,B3,Water Availability,7,-0.0753037,0.06559717,4,Very High
+COMP_0092,2026-06-29 03:33:31,"Mere AC seat ko cancel kar diya gaya tha, lekin ticket wala ne koi pata nahi. Unhone kiya hai kya?",,,Staff Behaviour,,,AC Failure,1,0.2459169,0.08901674,4,Very High
+COMP_0093,2026-07-01 19:26:00,Train 12809 me B2 coach mein bahut overcrowding hai. Lekin staff ne koi action nahi liya.,12809.0,B2,Overcrowding,12809.0,B2,Overcrowding,1,0.038723912,0.021085968,3,High
+COMP_0094,2026-07-13 20:19:53,Train 12423 me D1 coach mein food quality bad hai. Khana bahut takkar mein tha.,12423.0,D1,Other,12423.0,D1,Food Quality,5,-0.09001712,0.15652065,2,Medium
+COMP_0095,2026-07-01 07:38:43,Pani ki problem ho rahi hai. Water bottle nahi de raha hai. Unchi tarah ka wait karne ka hai.,,,Water Availability,,,Water Availability,4,0.31545424,0.009070214,4,Very High
+COMP_0096,2026-07-19 17:57:47,Train ka timing bahut late ho raha hai. Abhi tak kuch nahi hua. Unka koi dhyaan nahi hai.,,,Other,,,Delay-related,6,0.22269195,0.18311422,2,Medium
+COMP_0097,2026-07-13 22:56:38,"Maine A1 coach mein seat book kiya tha, lekin woh seat kisi aur ne li gaya. Staff ko pata chal gaya tha, lekin koi action nahi liya.",,A1,Staff Behaviour,,A1,Staff Behaviour,7,0.059324097,-0.077661544,2,Medium
+COMP_0098,2026-07-03 20:25:24,Train 12951 me bahut overcrowding hai. Koi bhi seat free nahi hai. Unchi tarah ka wait karne ka hai.,12951.0,,Overcrowding,12951.0,,Overcrowding,6,0.0662055,0.23428398,3,High
+COMP_0099,2026-07-13 09:25:03,Toilet mein bahut gandagi hai. Pani nahi aa raha hai. Unchi tarah ka wait karne ka hai.,,,Water Availability,,,Cleanliness,4,0.38325652,0.060776033,3,High
+COMP_0100,2026-07-04 22:22:41,"Maine train 12423 mein food ordered kiya tha, lekin unhone koi bhi food nahi diya. Unka koi dhyaan nahi hai.",12423.0,,Other,12423.0,,Food Quality,7,-0.062175505,0.36503637,2,Medium
+COMP_0101,2026-06-22 16:54:53,AC is not working in coach B1. It's a disaster.,,B1,AC Failure,,B1,AC Failure,2,-0.5717331,-0.7410349,4,Very High
+COMP_0102,2026-07-09 08:05:02,Train 12626 ki AC nahi chal rahi hai. Bahut darr kaa hai.,12626.0,,AC Failure,12626.0,,AC Failure,6,0.14347409,0.16333286,4,Very High
+COMP_0103,2026-06-25 15:37:13,Toilet me pani nahi aa raha hai coach S5 me. Abhi tak toilet me pani nahi aa raha hai.,,S5,Staff Behaviour,,S5,Water Availability,4,0.37556908,-0.17219685,4,Very High
+COMP_0104,2026-07-18 05:36:41,12423 ki train late ho gayi hai. Abhi tak train aayi nahi hai.,12423.0,,Delay-related,12423.0,,Delay-related,6,0.09984424,0.3117727,2,Medium
+COMP_0105,2026-06-29 04:21:50,Food quality is very bad in train 12626. We don't know who cooks this food.,12626.0,,Delay-related,12626.0,,Food Quality,3,-0.6968929,0.23304021,2,Medium
+COMP_0106,2026-07-19 10:10:16,Kya aapko pata hai ki train ki schedule ki kya hoti hai? Hamari train 2 hour late ho gayi hai.,,,Delay-related,,,Delay-related,6,0.15889154,0.17007105,2,Medium
+COMP_0107,2026-07-04 00:29:18,Coach S7 me bahut saare log hain. Aapko ek aur coach provide karein.,,S7,Overcrowding,,S7,Overcrowding,1,0.16748382,-0.13499476,3,High
+COMP_0108,2026-07-17 13:11:35,Railway staff bahut unprofessional hai. Wo apne kaam ko nahi kartay.,,,Staff Behaviour,,,Staff Behaviour,1,0.11637544,0.12586324,2,Medium
+COMP_0109,2026-07-05 12:42:06,We are stuck in train 12229 since last 5 hours. What is the problem?,12229.0,,Delay-related,12229.0,,Delay-related,0,-0.55778253,0.047461066,3,High
+COMP_0110,2026-07-18 07:40:28,Toilet me ganda pani aa raha hai. Bahut gande hain yeh toilet.,,H1,Staff Behaviour,,,Cleanliness,4,0.40411556,0.046209123,3,High
+COMP_0111,2026-07-05 14:43:34,Toilet me pani nahi aa raha hai coach S5 me.,,,Water Availability,,S5,Water Availability,4,0.36266756,-0.20592989,4,Very High
+COMP_0112,2026-07-19 03:43:31,Train 12809 ka time kaha hai? Kab tak late honge?,12809.0,,Delay-related,12809.0,,Delay-related,6,0.022109507,0.2671894,2,Medium
+COMP_0113,2026-06-30 17:40:20,AC is not working in coach B1.,,B1,Cleanliness,,B1,AC Failure,2,-0.5619165,-0.74282074,4,Very High
+COMP_0114,2026-07-06 06:18:57,"Maine train 12423 me khana khaya, lekin uska quality bahut bad tha.",12423.0,,Food Quality,12423.0,,Food Quality,7,-0.29761437,0.3552093,2,Medium
+COMP_0115,2026-07-01 21:49:01,H1 coach ka bathroom saaf nahi hai.,,H1,Cleanliness,,H1,Cleanliness,4,0.26156387,-0.19287848,3,High
+COMP_0116,2026-06-26 13:17:48,Train 12951 wale staff bahut aapse hai. Unka behaviour bahut gusse wala tha.,12951.0,,Delay-related,12951.0,,Staff Behaviour,6,0.10735516,0.161316,2,Medium
+COMP_0117,2026-07-08 15:04:51,"Kuchh aisa hai, toilet me pani nahi aa raha hai aur bathroom bhi saaf nahi hai. Isse bahut gussa aata hai.",,,Cleanliness,,,Cleanliness,4,0.41712287,-0.04342426,3,High
+COMP_0118,2026-07-02 22:03:32,A1 coach ka A/C bahut kamzor hai. Isliye humein bahut garmi lage rahi hai.,,A1,Cleanliness,,A1,AC Failure,1,0.24279237,-0.16582613,4,Very High
+COMP_0119,2026-06-25 17:42:32,Train ki speed kam hai. Isse humein bahut samay laga raha hai.,12809.0,,Delay-related,,,Delay-related,6,0.189954,0.1777387,2,Medium
+COMP_0120,2026-06-25 09:29:18,D1 coach me khana bahut bad hai. Ismein kya dhoop hai!,,D1,Food Quality,,D1,Food Quality,1,0.20528089,-0.13257216,2,Medium
+COMP_0121,2026-07-21 10:45:05,Food quality is very bad in train 12229,12229.0,,Other,12229.0,,Food Quality,3,-0.6978175,0.24018279,2,Medium
+COMP_0122,2026-07-05 07:13:10,"A1 coach ka AC nahi ho raha hai, bahut garm hai",,A1,AC Failure,,A1,AC Failure,1,0.28167737,-0.23588085,4,Very High
+COMP_0123,2026-06-24 13:51:18,"Train 12951 ki tarikh badh gayi hai, ab 2 ghante der se chali hai",12951.0,,Delay-related,12951.0,,Delay-related,6,0.038071003,0.23287052,3,High
+COMP_0124,2026-07-09 13:16:34,"GS coach me bahut overcrowding hai, log bahut majboor se baith gaye hain",,GS,Overcrowding,,GS,Overcrowding,1,0.14319088,-0.021915825,3,High
+COMP_0125,2026-06-29 10:05:53,"S5 coach ka toilet nahi kaam kar raha hai, bahut badhiya hai",,S5,Other,,S5,Cleanliness,4,0.2932066,-0.13635877,3,High
+COMP_0126,2026-06-22 05:37:22,"We are being charged for food delivery but it has not been provided yet, train number 12004",12004.0,,Other,12004.0,,Other,3,-0.6070406,0.12593904,2,Medium
+COMP_0127,2026-07-06 05:10:52,"S7 coach me seat nahi mil raha hai, hum log bahut der se pahunch gaye hain",,S7,Overcrowding,,S7,Overcrowding,1,0.25051424,-0.07264394,4,Very High
+COMP_0128,2026-07-20 00:35:07,Why is train 12229 running late? This is not the first time it has happened,12229.0,,Delay-related,12229.0,,Delay-related,0,-0.62089634,0.104577534,2,Medium
+COMP_0129,2026-07-03 13:25:31,"A1 coach ki AC kharab hai, to ticket ki kya zaroorat hai?",,A1,AC Failure,,A1,AC Failure,1,0.14434847,-0.13564183,4,Very High
+COMP_0130,2026-07-06 18:52:46,"I am extremely disappointed with the service, train 12951 has been delayed by 2 hours",12951.0,,Delay-related,12951.0,,Delay-related,0,-0.6272669,0.09849033,3,High
+COMP_0131,2026-07-04 18:14:24,Food quality is very bad in train 12626.,12626.0,,Delay-related,12626.0,,Food Quality,3,-0.7198975,0.27769306,2,Medium
+COMP_0132,2026-06-30 04:50:57,B3 coach ki cleanliness bahut behtar ho.,,B3,Cleanliness,,B3,Cleanliness,1,0.08868723,-0.15367006,3,High
+COMP_0133,2026-06-28 04:35:23,H1 coach mein AC nahi kar rahe hain!,,H1,AC Failure,,H1,AC Failure,1,0.22470084,-0.2563278,4,Very High
+COMP_0134,2026-07-11 18:10:43,"Train late ho rahi hai, koi idea hai ki kab pahunchega.",12809.0,,Delay-related,,,Delay-related,6,0.25297064,0.13426849,2,Medium
+COMP_0135,2026-07-05 03:25:04,"GS coach mein bahut overcrowding hai, please kuch karein.",,GS,Overcrowding,,GS,Overcrowding,1,0.07352256,-0.01389402,3,High
+COMP_0136,2026-07-21 09:14:30,"B2 coach ki cleanliness bahut acchi hai, dhanyawad IRCTC!",,B2,Cleanliness,,B2,Cleanliness,1,0.16158748,-0.1575301,3,High
+COMP_0137,2026-06-24 05:54:09,Train number 22436 mein koi sahi information nahi mil rahi hai.,22436.0,,Delay-related,22436.0,,,6,0.04652822,0.1870093,2,Medium
+COMP_0138,2026-07-05 22:45:42,Kya H1 coach mein AC wala koi problem hai?,,H1,AC Failure,,H1,AC Failure,1,0.12894273,-0.24492453,4,Very High
+COMP_0139,2026-07-15 08:56:50,"GS coach mein koi sahi seat nahi diya gaya hai, please kuch karein.",,GS,Overcrowding,,GS,Overcrowding,1,0.21553999,-0.06676126,3,High
+COMP_0140,2026-07-13 00:58:41,12301 train number pe koi sahi information nahi mil rahi hai.,12301.0,,Delay-related,12301.0,,,6,-0.005432393,0.22934124,2,Medium
+COMP_0141,2026-07-10 11:44:18,AC nahi chala raha hai coach B3 me. Kabhi se koi aapne samay se aapko train nahi di,12229.0,B3,AC Failure,,B3,AC Failure,1,0.23811665,-0.17153966,4,Very High
+COMP_0142,2026-07-14 04:46:25,I'm extremely disappointed with my experience on train 12301. The toilet in coach S1 was not functioning properly.,12301.0,S1,Water Availability,12301.0,S1,Cleanliness,3,-0.55723125,-0.113574624,3,High
+COMP_0143,2026-07-04 21:32:33,Kya aapke pass koi solution hai? Toilet me pani nahi aa raha hai coach B2 me.,,B2,Water Availability,,B2,Water Availability,4,0.36150056,-0.18456414,4,Very High
+COMP_0144,2026-07-20 06:13:19,I was shocked to see that AC was not working in coach D2 of train 22436. This is not the service I expect from Indian Railways.,22436.0,D2,AC Failure,22436.0,D2,AC Failure,2,-0.52535945,-0.30596185,4,Very High
+COMP_0145,2026-06-25 17:16:22,"Bilkul nahi, yeh bahut ghabrana wala hai. Train 12229 ki jaankari nahi di jati hai, kuch kuch waqt se.",12229.0,,Delay-related,12229.0,,Delay-related,6,0.117031656,0.24320689,2,Medium
+COMP_0146,2026-07-01 11:36:21,Overcrowding in coach B2 is extremely uncomfortable. Can something be done about this?,,B2,Overcrowding,,B2,Overcrowding,2,-0.440833,-0.42879057,3,High
+COMP_0147,2026-06-28 17:46:43,"Please help, train 12301 is late and we are getting anxious. When will we reach our destination?",12301.0,,Delay-related,12301.0,,Delay-related,0,-0.54878974,0.18526138,2,Medium
+COMP_0148,2026-07-03 12:13:21,"Tension mein aayin hain. Train 22436 ki jaankari nahi di jati hai, kabhi se koi aapke samay se aapko train nahi di.",22436.0,,Delay-related,22436.0,,Delay-related,6,0.13181007,0.15010644,2,Medium
+COMP_0149,2026-07-14 00:13:13,AC nahi chala raha hai coach D2 me. Kabhi se koi aapne samay se aapko train nahi di.,22436.0,D2,AC Failure,,D2,AC Failure,1,0.22419828,-0.16243874,4,Very High
+COMP_0150,2026-07-06 05:34:58,"Koi bhi problem nahi hain, lekin overcrowding hai coach B3 me. Isme kuch change aap karenge?",12229.0,B3,Overcrowding,,B3,Overcrowding,1,0.15257117,-0.095414065,3,High
+COMP_0151,2026-06-21 22:03:49,AC is not working in coach B1.,12229.0,B1,Other,,B1,AC Failure,2,-0.5619165,-0.74282074,4,Very High
+COMP_0152,2026-07-02 19:02:17,Sapnon ka Sahara train ka cleanliness bahut hi bura hai. Coach S5 mein bahut se paudhe nikaalne ke baad bhi paani aur gandagi aa rahi hai.,12626.0,S5,Cleanliness,,S5,Cleanliness,1,0.18086085,-0.035708874,3,High
+COMP_0153,2026-07-13 07:16:20,Tumhare staff bahut hi garm jalwaal hai. Unhone mere pasbton ko ticket ka bill 4 baar lagaya.,,,Staff Behaviour,,,Staff Behaviour,1,0.18955627,0.095410794,2,Medium
+COMP_0154,2026-06-22 01:43:41,Food quality in train 12951 is very bad. Chawal bahut hi bada aur garam tha.,12951.0,,Other,12951.0,,Food Quality,3,-0.42631444,0.32534912,2,Medium
+COMP_0155,2026-07-02 23:16:46,Toilet mein pani nahi aa raha hai coach S7 mein. Isse bahut hi gandagi ho rahi hai.,12626.0,S7,Cleanliness,,S7,Water Availability,4,0.35854265,-0.10992487,4,Very High
+COMP_0156,2026-06-24 11:28:14,I'm calling from seat number H1 in train 12229. There is an old man sleeping on my seat.,12229.0,H1,Overcrowding,12229.0,,,7,-0.47668216,0.052034877,2,Medium
+COMP_0157,2026-07-15 19:04:34,Kya aapko pata hai ki train mein seat booking kaise kiya jata hai? Mujhe nahi pata.,,,Other,,,,6,0.19446525,0.11667297,2,Medium
+COMP_0158,2026-07-07 04:06:18,Train mein bahut hi jama hua hai. Mere saath ke log bahut hi garm chale hain.,12951.0,,Overcrowding,,,Overcrowding,6,0.23740673,0.13453567,3,High
+COMP_0159,2026-06-26 01:33:49,"Wah sir, toilet ki cleanliness bahut hi buri hai. Isse hum log bahut hi garm hote hain.",12229.0,,Cleanliness,,,Cleanliness,4,0.3152179,0.035984796,3,High
+COMP_0160,2026-07-09 19:16:09,Kya aap train mein parivahan ki videshiyaan ko seat dene ke liye koi kanoon hai? Mujhe lagta hai ki nahi hai.,12626.0,,Staff Behaviour,,,Other,6,0.2120647,0.15272765,2,Medium
+COMP_0161,2026-07-09 07:56:33,AC is not working in coach B1,12951.0,B1,AC Failure,,B1,AC Failure,2,-0.5585162,-0.73920494,4,Very High
+COMP_0162,2026-07-05 23:10:25,Toilet mein paani nahi mil raha hai,,,Water Availability,,,Water Availability,4,0.35144487,-0.032992758,4,Very High
+COMP_0163,2026-07-20 19:51:27,Maine train 12229 mein jagarany ka ticket liya tha lekin mujhe sleeper seat diya gaya,12229.0,,Other,12229.0,,Other,7,-0.16265258,0.30114764,2,Medium
+COMP_0164,2026-07-08 21:20:26,"Coach A1 ki cleanliness bahut buri hai, kai din se koi cleaning nahi hua",12301.0,A1,Cleanliness,,A1,Cleanliness,4,0.22390097,-0.18219393,3,High
+COMP_0165,2026-06-25 09:59:19,"Bhai, toilet mein paani ki bottle ki jagah toh peela paani milta hai",,,Water Availability,,,Water Availability,4,0.34445876,-0.020029334,4,Very High
+COMP_0166,2026-06-22 05:50:42,"Mujhe lagta hai ki train 12951 ki timing wrong hai, hum late ho gaye hain",12951.0,,Other,12951.0,,Delay-related,6,0.016573198,0.24953598,2,Medium
+COMP_0167,2026-06-28 01:57:07,"D1 coach ki cleanliness bahut achhi hai, thanks IRCTC",12301.0,D1,Cleanliness,,D1,Cleanliness,1,0.14424509,-0.14437403,3,High
+COMP_0168,2026-06-25 20:46:59,"Toilet mein paani nahi aa raha hai, koi sahi kare",,,Water Availability,,,Water Availability,4,0.42116094,-0.052590303,4,Very High
+COMP_0169,2026-07-17 05:27:50,Maine 12301 train mein food order kiya tha lekin unhone wrong order diya hai,12301.0,,Other,12301.0,,Food Quality,7,-0.16564244,0.27482387,2,Medium
+COMP_0170,2026-07-21 04:12:25,D2 coach mein bhi cleanliness bahut achhi hai,12301.0,D2,Cleanliness,,D2,Cleanliness,1,0.20089588,-0.24418591,3,High
+COMP_0171,2026-07-20 16:05:44,Food quality is very bad in train 12004,12004.0,,Food Quality,12004.0,,Food Quality,3,-0.70759237,0.2539269,2,Medium
+COMP_0172,2026-07-20 13:12:32,toilet me pani nahi aa raha hai coach S5 me,,5,Cleanliness,,S5,Water Availability,4,0.35358077,-0.22071877,4,Very High
+COMP_0173,2026-06-24 17:34:55,Why is train 12951 running late?,12951.0,,Delay-related,12951.0,,Delay-related,0,-0.6507408,0.15964782,2,Medium
+COMP_0174,2026-07-04 13:53:27,"Koi staff bahut gusse mein tha, unka behaviour bahut gusse wala tha",,,Staff Behaviour,,,Staff Behaviour,1,0.19157158,-0.005603698,2,Medium
+COMP_0175,2026-07-11 19:45:44,"They are serving spoiled food in train 12301, AC coach S1",12301.0,1,Food Quality,12301.0,S1,Food Quality,3,-0.66634256,-0.1363875,2,Medium
+COMP_0176,2026-07-16 12:52:57,"Coach GS mein bahut saare log hain, kya yeh train mein ticket check karne ki jagah hai?",,0,Cleanliness,,GS,Overcrowding,1,0.0737446,0.06858603,3,High
+COMP_0177,2026-07-09 03:01:34,"Train 12004 is delayed by 4 hours, when will it reach?",12004.0,,Delay-related,12004.0,,Delay-related,0,-0.54423976,0.20466647,3,High
+COMP_0178,2026-07-03 08:49:39,"Food quality is very bad in train 12951, coach B3",12951.0,3,Food Quality,12951.0,B3,Food Quality,3,-0.6946423,0.074156195,2,Medium
+COMP_0179,2026-07-20 19:30:50,"Koi staff ne mere se baat nahin ki, bahut gussa hai",,,Staff Behaviour,,,Staff Behaviour,1,0.27717292,0.0026550025,2,Medium
+COMP_0180,2026-06-30 23:18:59,"Coach S5 mein bahut saare log hain, kya yeh train mein ticket check karne ki jagah hai?",,5,Cleanliness,,S5,Overcrowding,1,0.08373041,0.06128571,3,High
+COMP_0181,2026-07-15 03:57:39,"Toh kya hua, train 12951 ka 2 ghante late hua hai!",12951.0,,Delay-related,12951.0,,Delay-related,6,0.011748572,0.24337827,3,High
+COMP_0182,2026-06-30 22:09:54,"Bhai, toilet me pani nahi aa raha hai coach S5 me. Isse bahut dikkat ho rahi hai.",,S5,Water Availability,,S5,Water Availability,4,0.38556173,-0.15911913,4,Very High
+COMP_0183,2026-07-12 01:22:19,"Main 12809 ka ticket laga hua hoon, lekin food quality to bahut buri hai.",12809.0,,Food Quality,12809.0,,Food Quality,5,0.013007987,0.28834504,2,Medium
+COMP_0184,2026-07-15 02:58:40,A1 coach me AC to nahi chal raha hai. Kabhi iska solution karo?,,A1,Other,,A1,AC Failure,1,0.23580283,-0.2078705,4,Very High
+COMP_0185,2026-07-19 18:23:11,"Train 12423 ka delay nahi hua hai, lekin staff ka behavior to bahut ganda hai.",12423.0,,Delay-related,12423.0,,Staff Behaviour,6,0.05609148,0.25556612,2,Medium
+COMP_0186,2026-07-09 22:45:27,D2 coach me bahut garam hawa aa rahi hai. Isse passengers ko bahut dukh ho raha hai.,,D2,Other,,D2,Overcrowding,1,0.17302918,-0.09156341,3,High
+COMP_0187,2026-07-10 08:03:15,H1 coach ka window band hai. Isliye bahar ka view nahi de raha.,,H1,Other,,H1,Other,1,0.25614572,-0.13809109,2,Medium
+COMP_0188,2026-07-16 02:21:47,"Food quality is very bad in train 12626, but this train number is not even related to our train.",12626.0,,Food Quality,12626.0,,Food Quality,3,-0.72551614,0.31890377,2,Medium
+COMP_0189,2026-07-13 17:01:37,Kya aapko pata hai ki toilet me pani nahi aa raha hai coach B2 me?,,B2,Water Availability,,B2,Water Availability,4,0.37325293,-0.21590434,4,Very High
+COMP_0190,2026-07-02 13:00:58,"Train 12423 ko delay nahi hua hai, lekin passenger ko bahut dukh ho raha hai.",12423.0,,Delay-related,12423.0,,Delay-related,6,0.030557323,0.3283769,2,Medium
+COMP_0191,2026-06-24 15:40:09,Food quality is very bad in train 12626.,12626.0,,Food Quality,12626.0,,Food Quality,3,-0.71989745,0.27769303,2,Medium
+COMP_0192,2026-06-21 18:46:42,"Toilet wala bhai bahut gusse mein tha, sirf 1 bottle paani diya tha.",,,Staff Behaviour,,,Water Availability,4,0.23453955,0.0055482057,4,Very High
+COMP_0193,2026-06-26 00:41:36,"AC is not working properly in coach B2, please fix it.",,B2,AC Failure,,B2,AC Failure,2,-0.504394,-0.6988566,4,Very High
+COMP_0194,2026-06-29 13:15:34,"Aapka staff bahut hi mehnatkar hai, unka dhanyavad.",,,Staff Behaviour,,,,1,0.19080468,-0.024003368,2,Medium
+COMP_0195,2026-07-06 09:20:28,Kya aap train 22436 ki GS seat ka water supply problem solve kar sakte hain?,22436.0,GS,Water Availability,22436.0,GS,Water Availability,7,-0.056643665,0.12494224,4,Very High
+COMP_0196,2026-06-27 22:27:13,"Bhai, mere liye sabzi ka order karo, koi aisa nahi hai jismein sabzi nahi hai.",,,Food Quality,,,Food Quality,4,0.36913022,-0.006515282,2,Medium
+COMP_0197,2026-06-26 14:08:21,"Train 12423 ki S5 seat ki AC failure hai, please check it.",12423.0,S5,AC Failure,12423.0,S5,AC Failure,7,-0.2955128,0.08088672,4,Very High
+COMP_0198,2026-07-10 21:02:58,"Bilkul thoda sa pani dijiye, main pani ki jarurat hai.",,,Water Availability,,,Water Availability,4,0.2982563,0.06603106,4,Very High
+COMP_0199,2026-07-10 18:33:22,"H1 seat ki food quality bahut hi achhi hai, unka dhanyavad.",,H1,Food Quality,,,Other,5,0.05968951,0.1588377,2,Medium
+COMP_0200,2026-07-17 22:26:40,"Toh kya hua, koi bhi staff aapke pass nahi hai? Mujhe urgent water ki zarurat hai.",,,Staff Behaviour,,,Water Availability,4,0.3189314,-0.03069329,4,Very High
