@@ -14,10 +14,10 @@
 
 ```mermaid
 flowchart LR
-    A[Phase 1: Data Synthesis<br/><i>src/synthesis.py</i>] --> B[Phase 2: LLM Extraction<br/><i>src/extraction.py</i>]
-    B --> C[Phase 3: Semantic Clustering<br/><i>src/clustering.py</i>]
-    C --> D[Phase 4: Severity & Crisis Scoring<br/><i>src/severity.py</i>]
-    D --> E[Phase 5: Interactive Dashboard<br/><i>app/dashboard.py</i>]
+    A["Phase 1: Data Synthesis (src/synthesis.py)"] --> B["Phase 2: LLM Extraction (src/extraction.py)"]
+    B --> C["Phase 3: Semantic Clustering (src/clustering.py)"]
+    C --> D["Phase 4: Severity & Crisis Scoring (src/severity.py)"]
+    D --> E["Phase 5: Interactive Dashboard (app/dashboard.py)"]
 ```
 
 ### Pipeline Breakdown
