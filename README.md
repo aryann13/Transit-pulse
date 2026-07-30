@@ -26,6 +26,7 @@ flowchart LR
 | :--- | :--- | :--- | :--- |
 | **Phase 1** | `src/synthesis.py` | Groq API (`llama-3.1-8b-instant`) | Generates 200 diverse, multi-lingual passenger complaints with pre-assigned ground-truth metadata. |
 | **Phase 2** | `src/extraction.py` | LLM NER Prompt Engineering | Extracts `extracted_train_number`, `extracted_coach_number`, and `extracted_issue_category`. Includes 20-row validation sample accuracy benchmarking. |
+| **Validation** | `src/extract_real_tweets.py` | Python + Llama 3.1 NER | **Real-World Testing:** Validates the extraction prompt against a dataset of actual, non-synthetic Indian Railways tweets to prove real-world robustness. |
 | **Phase 3** | `src/clustering.py` | `SentenceTransformers` + KMeans + PCA | Generates 384-dim text embeddings (`all-MiniLM-L6-v2`), clusters complaints into $K=8$ groups, and projects vectors to 2D for interactive mapping. |
 | **Phase 4** | `src/severity.py` | Custom Heuristic Engine + `src/crisis_utils.py` | Assigns 1-5 severity scores based on category baselines & keyword boosting. Computes aggregate **Crisis Scores** per Train/Coach group. |
 | **Phase 5** | `app/dashboard.py` | Streamlit + Plotly Express | Modern dark-mode UI with KPI topbar, exact train filter, interactive PCA scatter plot, cluster inspect cards with URGENT badges, and export capabilities. |
